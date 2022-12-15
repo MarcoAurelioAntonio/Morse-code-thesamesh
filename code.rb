@@ -40,8 +40,8 @@
 
 def morse_decoder(string)
   words = string.split('   ')
-  puts words
   p words
+  #p words
   words.map { |x| x.split.map { |y| @morse_code.key(y) }.join }.join(' ').capitalize
 end
 
