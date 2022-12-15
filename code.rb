@@ -39,11 +39,7 @@
 }
 
 def morse_decoder(string)
-  words = string.split('   ')
-  p words
-  #p words
-  words.map { |x| x.split.map { |y| @morse_code.key(y) }.join }.join(' ').capitalize
+  string.split('   ').map { |x| x.split.map { |y| @morse_code.key(y) }.join }.join(' ').capitalize
 end
 
-decode = morse_decoder('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-puts decode
+puts morse_decoder('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
