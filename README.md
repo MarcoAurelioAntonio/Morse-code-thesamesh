@@ -17,7 +17,6 @@
 - [📝 License](#license)
 
 # 📖 Morse code <a name="about-project"></a>
-> A library tool to record what books are in the library and who borrows them.
 
 ## 🛠 Built With <a name="built-with"></a>
 
